@@ -3,7 +3,6 @@
 #include <fstream>
 #include <sstream>
 #include "date.h"
-#include "date.cpp"
 #include "address.h"
 
 Student::Student(){
