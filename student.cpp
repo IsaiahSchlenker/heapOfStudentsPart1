@@ -5,7 +5,6 @@
 #include "date.h"
 #include "date.cpp"
 #include "address.h"
-#include "address.cpp"
 
 Student::Student(){
 	studentString = "";
@@ -50,7 +49,7 @@ std::string Student::getLastFirst(){
 	return firstName + " " + lastName;
 }
 Student::~Student() {
-    delete dob;
-    delete expectedGrad;
-    delete address;
+	delete dob;
+	delete expectedGrad;
+	delete address;
 }
